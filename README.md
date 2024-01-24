@@ -1,5 +1,5 @@
 # jetson_rt_kernel_installation
-Procedures of installing RT kernel on Jetson (for NVIDIA L4T 35.1 or above)
+Procedures of installing RT kernel on Jetson (for NVIDIA L4T 35.1 or above) (from [Nivida Developer forums](https://forums.developer.nvidia.com/t/jetpack-5-1-rt-patch-not-working/247771))
 1. Put the target board into Recovery Mode and connect with a USB Type-C cable to another Ubuntu device(the host). e.g. Port J512 is used for Jetson Agx Xavier.
    The following actions are performed on the host.
 
