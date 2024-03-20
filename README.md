@@ -32,5 +32,5 @@ sudo ./flash.sh jetson-agx-xavier-devkit mmcblk0p1
 5. Run the shell script on Terminal
 ```
 chmod +x install.sh
-./install.sh
+sudo ./install.sh
 ```
