@@ -41,7 +41,7 @@ sudo ./apply_binaries.sh
 
 echo "Copy from kernel_out..."
 cd $ROOT/Linux_for_Tegra
-sudo cp source/public/kernel_out/drivers/gpu/nvgpu/nvgpu.ko rootfs/usr/lib/modules/5.10.104-tegra/kernel/drivers/gpu/nvgpu/nvgpu.ko
+sudo cp source/public/kernel_out/drivers/gpu/nvgpu/nvgpu.ko rootfs/usr/lib/modules/5.10.104-rt63-tegra/kernel/drivers/gpu/nvgpu/nvgpu.ko
 cp -r source/public/kernel_out/arch/arm64/boot/dts/nvidia/* kernel/dtb/.
 cp -r source/public/kernel_out/arch/arm64/boot/Image kernel/Image
 
