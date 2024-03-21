@@ -29,7 +29,8 @@ TOOLCHAIN="aarch64--glibc--stable-final.tar.gz"
 ```
 sudo ./flash.sh jetson-agx-xavier-devkit mmcblk0p1
 ```
-5. Run the shell script on Terminal
+5. Replace `5.10.104-rt63-tegra` according to existing folder under `Linux_for_Tegra/rootfs/usr/lib/modules/`.
+6. Run the shell script on Terminal
 ```
 chmod +x install.sh
 sudo ./install.sh
