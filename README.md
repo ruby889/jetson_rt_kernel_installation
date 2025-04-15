@@ -35,3 +35,8 @@ sudo ./flash.sh jetson-agx-xavier-devkit mmcblk0p1
 chmod +x install.sh
 sudo ./install.sh
 ```
+
+## Enable kernel modules without reflash the system
+Follow steps from [here](https://forums.developer.nvidia.com/t/no-ttyusb-ttyacm-shown-after-installed-jetpack6-0/299191/13)
+*  ch341 module is needed for RS485
+*  gs_usb module is needed for canable 
